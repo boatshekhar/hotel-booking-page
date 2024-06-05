@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hotel-detail-cont{
+    
+    height: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25rem;
+    
+}
+#review{
+    display: flex;
+    padding: 1.5rem;
+   
+}
+#hotel-name{
+    font-weight: bold;
+    font-size: larger;
+}
+#name-add{
+    margin-right: 18rem;
+    padding: 0.5rem;
+
+}
+#hotel-add{
+    margin-top: 0.5rem;
+}
+.card-imgs{
+    margin-top: 2.5rem;
+    height: 377px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.right-card{
+    
+}
+.card-1{  
+    background-color: rgb(46, 9, 83);
+    border: none;
+    border-radius: 1.5rem;
+    height: 364px;
+    width: 564px;
+    display: flex;
+    justify-content: center;
+    background-image: url("hotel-img-3.jpeg");
+    background-size: 100% 100%;
+}
+    
+
+.card2{
+    background-color: rgb(104, 171, 42);
+    border: none;
+    border-radius: 1.5rem;
+    height: 172px;
+    width: 507px;
+    display: flex;
+    justify-content: center;
+    background-image: url("hotel-img-2.jpeg");
+    background-size: 100% 100%;
+}
+.card3{
+    margin-top: 1.25rem;
+    background-color: rgb(253, 20, 79);
+    border-radius: 1.5rem;
+    border: none;
+    height: 172px;
+    width: 507px;
+    display: flex;
+    justify-content: center;
+    background-image: url("hotel-img-1.jpeg");
+    background-size: 100% 100%;
+}
+img{
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.box-1{
+    margin-top: 2rem;
+    margin-left: 10.5rem;
+    width: 474px;
+    height: 388px;
+    border: 0.01rem solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 2.5px 2.5px 1.25px #525151;
+    
+}
+.bottom-mid-area{
+    display: flex;
+    gap: 1.5rem;
+}
+.facilities-list i{
+    margin-top: 1.25rem;
+    display: flex;
+    color: green;
+}
+.review-sect{
+    margin-left: 13rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    
+}
+.review-sect p{
+    padding: 0.5rem;
+    font-weight: bold;
+}
+.green-box{
+    width: 288px;
+    height: 181px;
+    background-color: green;
+    border-radius: 0.75rem;
+}
+.line{
+    width: 630px;
+    height: 9px;
+    background-color: green;
+    border-radius: 0.75rem;
+    margin:0.5rem;
+}
+.rev-cont{
+    display: flex;
+    gap: 5rem;
+    padding: 0.5rem;
+}
+#l2{
+    width: 370px; 
+}
+#l3{
+    width: 240px; 
+}
+#l4{
+    width: 110px; 
+}
+#l5{
+    width: 55px;
+}
+.rects{
+    margin-left: 14rem;
+    margin-top: 2rem;
+    height: 72px;
+    width: 1017px;
+    border: solid black 0.1rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+
+}
+.green-rect{
+    margin-left: 1.5rem;
+    width: 75px;
+    height: 51px;
+    background-color: green;
+    border-radius: 0.5rem;
+}
